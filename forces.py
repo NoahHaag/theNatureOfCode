@@ -18,7 +18,6 @@ COLOR_GRAY = (127, 127, 127)
 
 class Mover():
     def __init__(self, x, y, m):
-        # In Python, instance variables are declared using 'self.'
         self.position = pygame.Vector2(x, y)
         self.velocity = pygame.Vector2(0, 0)
         self.acceleration = pygame.Vector2(-0.001, 0.01)
